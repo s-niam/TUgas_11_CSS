@@ -1,0 +1,46 @@
+header{
+    background-color: black;
+    overflow: hidden;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    float: left;
+    padding: 10px;
+}
+li{
+    display: inline;
+}
+
+
+.satu{
+    column-count: 4;
+    column-fill: balance;
+    /* column-rule-width: 5px; */
+    column-rule: 5px double black;
+}
+
+.dua{
+    column-count: 4;
+    column-rule: 5px double black;
+}
+
+.tiga{
+    column-count: 4;
+    column-count: 4;
+    column-rule: 5px double black;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
